@@ -8,8 +8,7 @@ import ruahIcon from '@/images/logos/ruah_icon.ico'
 const projects = [
   {
     name: 'Ruah Church',
-    description:
-      'Developing a Next.js web application for a local church',
+    description: 'Developing a Next.js web application for a local church',
     link: { href: 'https://ruahchurch.com', label: 'ruahchurch.com' },
     logo: ruahIcon,
   },
@@ -31,14 +30,11 @@ export default function Projects() {
     <>
       <Head>
         <title>Projects - Kaleb Swartz</title>
-        <meta
-          name="description"
-          content="Things I’ve made"
-        />
+        <meta name="description" content="Things I’ve made" />
       </Head>
       <SimpleLayout
         title="Things I’ve made"
-        intro="I've worked on many small projects over the years but these are some that have real-world implications"
+        intro="I've worked on many small projects over the years but these are what have real-world implications"
       >
         <ul
           role="list"
@@ -55,7 +51,9 @@ export default function Projects() {
                 />
               </div>
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                <Card.Link href={project.link.href} target="blank">{project.name}</Card.Link>
+                <Card.Link href={project.link.href} target="blank">
+                  {project.name}
+                </Card.Link>
               </h2>
               <Card.Description>{project.description}</Card.Description>
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
