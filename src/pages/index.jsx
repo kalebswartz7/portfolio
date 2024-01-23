@@ -15,7 +15,7 @@ import image2 from 'public/photos/image-2.JPG'
 import image3 from 'public/photos/image-3.jpeg'
 import image4 from 'public/photos/image-4.jpeg'
 import image5 from 'public/photos/image-5.jpeg'
-import miamiLogo from 'public/logos/Miami_Redhawks_Logo.png'
+import miamiLogo from 'public/logos/Miami_Redhawks_logo.png'
 
 function MailIcon(props) {
   return (
