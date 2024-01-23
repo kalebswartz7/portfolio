@@ -5,7 +5,7 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
-import portraitImage from '@/images/about.jpg'
+import portraitImage from 'public/about.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (

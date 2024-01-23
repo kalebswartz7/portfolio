@@ -6,16 +6,16 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
-import renu from '@/images/logos/Renu_Logo.png'
-import lilly from '@/images/logos/lilly-logo.png'
-import rhyme from '@/images/logos/Rhyme.png'
-import brookhaven from '@/images/logos/brookhaven.png'
-import image1 from '@/images/photos/image-1.jpeg'
-import image2 from '@/images/photos/image-2.JPG'
-import image3 from '@/images/photos/image-3.jpeg'
-import image4 from '@/images/photos/image-4.jpeg'
-import image5 from '@/images/photos/image-5.jpeg'
-import miamiLogo from '@/images/logos/Miami_Redhawks_Logo.png'
+import renu from 'public/logos/Renu_Logo.png'
+import lilly from 'public/logos/lilly-logo.png'
+import rhyme from 'public/logos/Rhyme.png'
+import brookhaven from 'public/logos/brookhaven.png'
+import image1 from 'public/photos/image-1.jpeg'
+import image2 from 'public/photos/image-2.JPG'
+import image3 from 'public/photos/image-3.jpeg'
+import image4 from 'public/photos/image-4.jpeg'
+import image5 from 'public/photos/image-5.jpeg'
+import miamiLogo from 'public/logos/Miami_Redhawks_Logo.png'
 
 function MailIcon(props) {
   return (
@@ -42,7 +42,11 @@ function MailIcon(props) {
 
 function AcademicCapIcon(props) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-6 w-6">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      className="h-6 w-6"
+    >
       <path
         d="M11.7 2.805a.75.75 0 01.6 0A60.65 60.65 0 0122.83 8.72a.75.75 0 01-.231 1.337 49.949 49.949 0 00-9.902 3.912l-.003.002-.34.18a.75.75 0 01-.707 0A50.009 50.009 0 007.5 12.174v-.224c0-.131.067-.248.172-.311a54.614 54.614 0 014.653-2.52.75.75 0 00-.65-1.352 56.129 56.129 0 00-4.78 2.589 1.858 1.858 0 00-.859 1.228 49.803 49.803 0 00-4.634-1.527.75.75 0 01-.231-1.337A60.653 60.653 0 0111.7 2.805z"
         className="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"

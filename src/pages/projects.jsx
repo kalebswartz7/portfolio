@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import ruahIcon from '@/images/logos/ruah_icon.ico'
+import ruahIcon from 'public/logos/ruah_icon.ico'
 
 const projects = [
   {
