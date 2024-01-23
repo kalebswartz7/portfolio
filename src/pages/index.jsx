@@ -4,14 +4,8 @@ import Link from 'next/link'
 import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
-import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  TwitterIcon,
-} from '@/components/SocialIcons'
+import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 import renu from '@/images/logos/Renu_Logo.png'
 import lilly from '@/images/logos/lilly-logo.png'
 import rhyme from '@/images/logos/Rhyme.png'
@@ -273,7 +267,7 @@ export default function Home() {
         <title>Kaleb Swartz - Software Engineer</title>
         <meta
           name="description"
-          content="I’m Kaleb, a software engineer based in Morgantown, WV. I currently work for a company called Rhyme,
+          content="I'm Kaleb, a software engineer based in Morgantown, WV. I currently work for a company called Rhyme,
            where we are creating the first true prior authorization network."
         />
       </Head>
@@ -283,7 +277,7 @@ export default function Home() {
             Software Engineer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Hello, I’m Kaleb, a passionate software engineer residing in
+            Hello, I&apos;m Kaleb, a passionate software engineer residing in
             Morgantown, WV. Presently, I am working at Rhyme (previously known
             as PriorAuthNow), a startup focused on developing the first live
             prior authorization network.

@@ -4,12 +4,7 @@ import Link from 'next/link'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  TwitterIcon,
-} from '@/components/SocialIcons'
+import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/about.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
@@ -67,16 +62,16 @@ export default function About() {
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
                 I’ve been curious about the world for as long as I can remember.
-                Thoughts like, "Why am I here?", "What am I here for?", "I can't
-                believe I'm here at all!" have lingered in my mind since I was a
-                kid.
+                Thoughts like, &quot;Why am I here?&quot;, &quot;What am I here
+                for?&quot;, &quot;I can&apos;t believe I&apos;m here at
+                all!&quot; have lingered in my mind since I was a kid.
               </p>
               <p>
                 Using and discovering technology only increased my curiosity -
-                I'll never forget the first time I played Mario Cart on the
+                I&apos;ll never forget the first time I played Mario Cart on the
                 Gamecube - it felt as if real magic had entered the world. It
-                wasn't until I started programming that I got a glimpse behind
-                the curtain and discovered how such mesmerizing digital
+                wasn&apos;t until I started programming that I got a glimpse
+                behind the curtain and discovered how such mesmerizing digital
                 experiences come to be. While in some sense it may have taken
                 away a bit of the wonder, it moreso enhanced it. It allowed me
                 to partake in the process - to create things that others may
@@ -84,17 +79,18 @@ export default function About() {
               </p>
               <p>
                 I love developing software for its unique blend of creative
-                thinking and logical reasoning. I'm not sure this combination of
-                attributes can be found in many other disciplines. I, as a
-                developer, get to create beautiful things out of nothing and in
-                turn image the God who created me. I get to use tools and a
-                blank canvas to line-by-line create whatever could be imagined.
+                thinking and logical reasoning. I&apos;m not sure this
+                combination of attributes can be found in many other
+                disciplines. I, as a developer, get to create beautiful things
+                out of nothing and in turn image the God who created me. I get
+                to use tools and a blank canvas to line-by-line create whatever
+                could be imagined.
               </p>
               <p>
-                I'm grateful to have stumbled upon this career. I can't think of
-                another I would rather pursue. My goal is to continue to learn,
-                grow, and create wonderful offerings that help re-enchant the
-                world and make it a better place.
+                I&apos;m grateful to have stumbled upon this career. I
+                can&apos;t think of another I would rather pursue. My goal is to
+                continue to learn, grow, and create wonderful offerings that
+                help re-enchant the world and make it a better place.
               </p>
             </div>
           </div>
