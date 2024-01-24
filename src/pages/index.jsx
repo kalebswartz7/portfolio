@@ -225,7 +225,7 @@ function Resume() {
         ))}
       </ol>
       <Button
-        href="Resume.pdf"
+        href="Kaleb_Swartz_Resume.pdf"
         variant="secondary"
         className="group mt-6 w-full"
         target="_blank"
@@ -243,7 +243,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image5, image4, image3, image1, image2].map((image, imageIndex) => (
+        {[image5, image4, image3, image2, image1].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
