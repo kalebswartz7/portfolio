@@ -224,15 +224,6 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button
-        href="Kaleb_Swartz_Resume.pdf"
-        variant="secondary"
-        className="group mt-6 w-full"
-        target="_blank"
-      >
-        Resume
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
     </div>
   )
 }
@@ -287,12 +278,6 @@ export default function Home() {
             prior authorization network.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink
-              href="https://github.com/kalebswartz7"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-              target="_blank"
-            />
             <SocialLink
               href="https://www.linkedin.com/in/kalebswartz7/"
               aria-label="Follow on LinkedIn"
